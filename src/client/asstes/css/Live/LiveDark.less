@@ -1,0 +1,53 @@
+@import "../global";
+.LiveDark{
+  background-color: @dark-pageBgColor-161A22;
+  .single{
+    .first_content{
+      border: 1px solid rgba(0,0,0,0);
+      background-image: url("../../images/dark/liveContentBg.png");
+      .logo_title {
+        .title {
+          color: @dark-fontColor-CBD1DA
+        }
+      }
+      .dot_title{
+        .title{
+          color: @dark-fontColor-CBD1DA;
+        }
+      }
+      .live_info{
+        color: @dark-fontColor-9AA2B3;
+      }
+    }
+    .item{
+      border: 1px solid @dark-pageBgColor-161A22;
+      background-color: #1e222d;
+      .logo_title{
+        .title{
+          color: @dark-fontColor-CBD1DA;
+        }
+      }
+      .info{
+        color: @dark-fontColor-9AA2B3;
+      }
+    }
+    //这里是因为 有四种背景色，然后循环显示
+    .item_card1{
+      background: linear-gradient(161deg, #332D28 0%, #161A22 100%);
+    }
+    .item_card2{
+      background: linear-gradient(155deg, #37352F 0%, #161A22 100%);
+    }
+    .item_card3{
+      background: linear-gradient(161deg, #46403E 0%, #161A22 100%);
+    }
+    .item_card0{
+      background: linear-gradient(155deg, #3F4045 0%, #161A22 100%);
+    }
+  }
+  .more{
+    background-color: #1e222d;
+    background-image: url("../../../assets/images/dark/live_item_more.png");
+  }
+}
+

@@ -1,0 +1,45 @@
+@import "../global";
+.LiveLight{
+  //background-color: @light-pageBgColor-F5F6F9;
+  .single{
+    .first_content{
+      border: 1px solid rgba(0,0,0,0);
+      background-image: url("../../images/lightImg/liveContentBg.png");
+      .dot_title{
+        .title{
+          color: @light-fontColor-0C121E;
+        }
+      }
+      .live_info{
+        color: @light-fontColor-50596D;
+      }
+    }
+    .item{
+      border: 1px solid @light-pageBgColor-F5F6F9;
+      .logo_title{
+        .title{
+          color: @light-fontColor-0C121E;
+        }
+      }
+      .info{
+        color: @light-fontColor-50596D;
+      }
+    }
+    //这里是因为 有四种背景色，然后循环显示
+    .item_card1{
+      background-image: url("../../../assets/images/lightImg/live_item_car1.png");
+    }
+    .item_card2{
+      background-image: url("../../../assets/images/lightImg/live_item_car2.png");
+    }
+    .item_card3{
+      background-image: url("../../../assets/images/lightImg/live_item_car3.png");
+    }
+    .item_card0{
+      background-image: url("../../../assets/images/lightImg/live_item_car0.png");
+    }
+  }
+  .more{
+    background-image: url("../../../assets/images/lightImg/live_item_more.png");
+  }
+}
